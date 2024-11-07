@@ -1,0 +1,105 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #e0f7fa; /* Azul claro */
+    --cor-secundaria: #00796b; /* Verde escuro */
+    --cor-card: #ffffff; /* Mudar a cor do card para um tom claro */
+    --laranja: #ffb74d; /* Laranja suave */
+    --azul-degrade: linear-gradient(97.54deg, #ffb74d 35.49%, #00796b 165.37%); /* Degradê */
+    --fonte-principal: "Poppins", sans-serif; /* Fonte */
+    --azul-escuro: #004d40; /* Azul escuro */
+    --texto-escuro: #212121; /* Texto escuro */
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--texto-escuro);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--cor-secundaria);
+    color: var(--branco);
+    padding: 20px;
+}
+
+.header__menu-hamburguer {
+    background-color: var(--laranja);
+}
+
+.banner {
+    background: var(--azul-degrade);
+    color: var(--branco);
+    padding: 40px;
+    text-align: center;
+}
+
+.banner__pesquisa {
+    border: 2px solid var(--laranja);
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+}
+
+.carrossel {
+    margin: 20px 0;
+}
+
+.carrossel__titulo {
+    color: var(--cor-secundaria);
+}
+
+.card {
+    background-color: var(--cor-card); /* Cor do card */
+    border: 1px solid var(--laranja);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card__botões .botões__item img {
+    width: 24px;
+    transition: transform 0.3s;
+}
+
+.card__botões .botões__item img:hover {
+    transform: scale(1.2);
+}
+
+.tópicos__link {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.tópicos__link:hover {
+    text-decoration: underline;
+    color: var(--laranja);
+}
+
+.contato {
+    background-color: var(--laranja);
+    color: var(--branco);
+    padding: 20px;
+    text-align: center;
+}
+
+.rodapé {
+    background-color: var(--cor-secundaria);
+    color: var(--branco);
+    padding: 20px;
+    text-align: center;
+}

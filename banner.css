@@ -1,0 +1,36 @@
+.banner {
+    background: var(--verde-escuro); /* Alterando para um verde escuro */
+    color: var(--amarelo); /* Mudando a cor do texto para amarelo */
+    text-align: center;
+    padding: 3em 2em; /* Aumentando o padding para mais espaço */
+    border-radius: 12px; /* Bordas arredondadas */
+}
+
+.banner__titulo {
+    font-size: 24px; /* Aumentando o tamanho do título */
+    font-weight: 700;
+}
+
+.banner__texto {
+    font-weight: 400; /* Ajustando o peso da fonte */
+    margin: 1.5em 0; /* Mais espaço acima e abaixo */
+}
+
+.banner__pesquisa {
+    background-color: var(--cinza-claro); /* Fundo cinza claro */
+    border: 1px solid var(--amarelo); /* Usando amarelo para o contorno */
+    color: var(--verde-escuro); /* Cor do texto em verde escuro */
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+.banner__pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--verde-escuro); /* Mudando a cor do placeholder */
+    background: url("../img/Lupa.svg") no-repeat;
+    background-position: 1em;
+}

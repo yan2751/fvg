@@ -1,0 +1,24 @@
+/* Customização após o reset */
+body {
+    background-color: #e0f7fa; /* Azul claro */
+    font-family: "Poppins", sans-serif; /* Fonte padrão */
+    font-size: 16px;
+    color: #212121; /* Texto escuro */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem; /* Espaçamento entre títulos */
+}
+
+p {
+    margin-bottom: 1rem; /* Espaçamento entre parágrafos */
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #00796b; /* Cor dos links */
+}
+
+a:hover {
+    color: #ffb74d; /* Cor do link ao passar o mouse */
+}

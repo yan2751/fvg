@@ -1,0 +1,38 @@
+.tópicos {
+    background: var(--azul-degrade);
+    text-align: center;
+    padding: 2em 0; /* Aumenta o padding para mais espaço */
+    border-radius: 8px; /* Adiciona cantos arredondados */
+}
+
+.tópicos__titulo {
+    color: var(--branco);
+    font-weight: 400; /* Ajuste de peso para melhor legibilidade */
+    margin-bottom: 1.5em; /* Aumenta o espaço abaixo do título */
+    font-size: 24px; /* Aumenta o tamanho do título */
+}
+
+.tópicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tópicos__item {
+    margin: 1.5em; /* Reduz a margem para melhor espaçamento */
+}
+
+.tópicos__link {
+    color: var(--branco);
+    padding: 1em;
+    background-color: var(--laranja);
+    text-decoration: none;
+    font-size: 16px; /* Aumenta o tamanho da fonte */
+    font-weight: 700;
+    border-radius: 5px; /* Adiciona bordas arredondadas aos links */
+    transition: background-color 0.3s; /* Transição suave para hover */
+}
+
+.tópicos__link:hover {
+    background-color: #ff9800; /* Alterar a cor ao passar o mouse */
+}

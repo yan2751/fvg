@@ -1,0 +1,40 @@
+.contato {
+    background-color: var(--cinza-escuro); /* Mudando para um cinza escuro */
+    padding: 1em;
+    border-radius: 12px; /* Bordas arredondadas para suavizar o visual */
+}
+
+.contato__titulo,
+.contato__texto {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contato__titulo {
+    font-size: 22px; /* Aumentando o tamanho do título */
+    font-weight: 600; /* Tornando o título mais destacado */
+}
+
+.contato__texto {
+    font-weight: 400; /* Ajustando o peso da fonte */
+    margin: 1em 0;
+    color: var(--branco); /* Mudando a cor do texto para branco para contraste */
+}
+
+.contato__email {
+    padding: 1em;
+    border: 2px solid var(--laranja); /* Usando laranja para o contorno */
+    border-radius: 24px;
+    width: 90%;
+    color: var(--laranja); /* Cor do texto do e-mail em laranja */
+    background-color: var(--cinza-claro); /* Fundo claro para o input */
+}
+
+.contato__email::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--laranja); /* Mudando a cor do placeholder */
+    background: url("../img/Email.svg") no-repeat 5%;
+    padding-left: 2em;
+}
